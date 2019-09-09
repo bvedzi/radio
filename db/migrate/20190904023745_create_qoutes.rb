@@ -1,9 +1,0 @@
-class CreateQoutes < ActiveRecord::Migration[5.2]
-  def change
-    create_table :qoutes do |t|
-      t.string :saying
-      t.string :aurthor
-      t.timestamps
-    end
-  end
-end
